@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               RTSP-Server
-version:            0.02
+version:            0.04
 abstract:           Lightweight RTSP/RTP server. Like icecast, for
 author:
     - Mischa Spiegelmock <revmischa@cpan.org>
@@ -19,6 +19,8 @@ requires:
     namespace::autoclean:  0
     Socket:               0
     URI:                  0
+resources:
+    repository:  git://github.com/revmischa/rtsp-server.git
 no_index:
     directory:
         - t
@@ -27,4 +29,3 @@ generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
-repository:         git://github.com/revmischa/rtsp-server.git
