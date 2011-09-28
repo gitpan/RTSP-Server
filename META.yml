@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               RTSP-Server
-version:            0.04
+version:            0.05
 abstract:           Lightweight RTSP/RTP server. Like icecast, for
 author:
     - Mischa Spiegelmock <revmischa@cpan.org>
